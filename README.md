@@ -2,14 +2,14 @@
 apt-get install wget
 
 安装shadowsocks
-wget –no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+wget –no-check-certificate -O shadowsocks.sh https://github.com/xhyyd2022/vpn-frps/blob/main/shadowsocks.sh
 获取shadowsocks.sh读取权限
 chmod +x shadowsocks.sh
 置密码和端口号
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
 BBR安装
-wget -N --no-check-certificate "https://gist.github.com/zeruns/a0ec603f20d1b86de6a774a8ba27588f/raw/4f9957ae23f5efb2bb7c57a198ae2cffebfb1c56/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+wget -N --no-check-certificate https://github.com/xhyyd2022/vpn-frps/blob/main/tcp.sh && chmod +x tcp.sh && ./tcp.sh
 重启VPS
 ./tcp.sh
 
