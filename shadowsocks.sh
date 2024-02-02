@@ -262,7 +262,7 @@ download_files(){
 config_shadowsocks(){
     cat > /etc/shadowsocks.json<<-EOF
 {
-    "server":"0.0.0.0",
+    "server":"::",
     "server_port":${shadowsocksport},
     "local_address":"127.0.0.1",
     "local_port":1080,
