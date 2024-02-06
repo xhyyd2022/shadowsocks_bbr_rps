@@ -2,7 +2,7 @@
 # 服务器上安装frp的脚本
 
 # 下载frp
-wget https://github.com/fatedier/frp/releases/download/v0.53.2/frp_0.53.2_linux_arm64.tar.gz
+wget https://github.com/fatedier/frp/releases/download/v0.53.2/frp_0.53.2_linux_arm64.tar.gz -O frp_0.53.2_linux_arm64.tar.gz
 
 # 解压frp
 tar -zxvf frp_0.53.2_linux_arm64.tar.gz
