@@ -2,7 +2,7 @@
 apt-get install wget
 
 安装shadowsocks
-wget -N --no-check-certificate "https://github.com/xhyyd2022/vpn-frps/raw/main/shadowsocks.sh" && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+wget -N --no-check-certificate "https://github.com/xhyyd2022/shadowsocks_bbr_rps/blob/main/shadowsocks.sh" && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 启用或关闭ipv6支持(默认启用)
 cd /etc/shadowsocks.json
 "server":"0.0.0.0"  关闭
