@@ -5,21 +5,25 @@
     ```
 2. 安装shadowsocks
 ```
-wget -N --no-check-certificate "https://github.com/xhyyd2022/shadowsocks_bbr_rps/blob/main/shadowsocks.sh" && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+wget -N --no-check-certificate "https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh" && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
-![ss](https://wistbean.github.io/images/ss1.png)
 
-3. 选择加密方式
-设置完密码和端口号之后，我们选择加密方式，这里选择 7：
+3. 设置密码
 
-![ss](https://wistbean.github.io/images/ss2.png)
+![ss](https://cdn.jsdelivr.net/gh/xhyyd2022/picx-images-hosting@master/1708169951225.png)
+4. 设置端口号
+
+![ss](https://cdn.jsdelivr.net/gh/xhyyd2022/picx-images-hosting@master/1708169945466.png)
+5. 选择加密方式，这里选择 7：
+
+![ss](https://cdn.jsdelivr.net/gh/xhyyd2022/picx-images-hosting@master/1708169958910.png)
 
 接着按任意键进行安装。
 
-4. 安装完成
+6. 安装完成
 等一会之后，就安装完成了，它会给你显示你需要连接vpn的信息：
 
-![ss](https://wistbean.github.io/images/ss3.png)
+![ss](https://cdn.jsdelivr.net/gh/xhyyd2022/picx-images-hosting@master/1708170506048.jpg)
 
 可以看到需要连接ss的ip地址，密码，端口，和加密方式。
 
