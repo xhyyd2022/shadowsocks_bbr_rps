@@ -3,7 +3,7 @@ apt-get install wget
 
 安装shadowsocks
 wget -N --no-check-certificate "https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh" && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
-启用或关闭ipv6支持(默认启用)
+启用或关闭ipv6支持(默认关闭)
 cd /etc/shadowsocks.json
 "server":"0.0.0.0"  关闭
 "server":"::"       启用
